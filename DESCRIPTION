@@ -1,0 +1,20 @@
+Package: rworkshoppackage
+Type: Package
+Title: It multiplies 2 numbers with each other
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Jyoti", "Bhogal",
+      email = "bhogaljyoti1@gmail.com",
+      role = c("aut", "cre")
+    )
+  )
+Description: When two scalar numbers are given as an input to the function 
+    `multiply()`, it calculates the product of the two numbers.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Config/roxygen2/version: 8.0.0
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
