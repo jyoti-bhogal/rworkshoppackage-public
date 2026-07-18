@@ -34,35 +34,26 @@ You can install the development version of `rworkshoppackage` from [GitHub](http
 pak::pak("jyoti-bhogal/rworkshoppackage-public")  
 ```  
 
+
+
+
+
 ## Usage
 
 Multiply 21 by 48
 
+This is a basic example which shows you how to solve a common problem:
+
+
 ```r
+library(rworkshoppackage)
 a <- 21
 b <- 48
 c <- rworkshoppackage::multiply(a,b)
 print(c)
 ```
 
-## Example
-
-This is a basic example which shows you how to solve a common problem:
-
-```{r example}
-library(rworkshoppackage)
-## basic example code
-```
-
-What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:
-
-```{r cars}
-summary(cars)
-```
-
-You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date. `devtools::build_readme()` is handy for this.
-
-You can also embed plots, for example:
+You can also embed plots. For example:
 
 ```{r pressure, echo = FALSE}
 #plot(pressure)
