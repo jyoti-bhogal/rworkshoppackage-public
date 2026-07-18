@@ -24,8 +24,25 @@ The goal of rworkshoppackage is to showcase as a demo at the Pune RUG meetup.
 
 You can install the development version of rworkshoppackage like so:
 
-``` r
-# FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
+## ⬇️ Installing `rworkshoppackage`
+
+Install the `pak` package. Y
+You can install the development version of `rworkshoppackage` from [GitHub](https://github.com/) with
+
+```{r, echo = TRUE}  
+# install.packages("pak")  
+pak::pak("jyoti-bhogal/rworkshoppackage-public")  
+```  
+
+## Usage
+
+Multiply 21 by 48
+
+```r
+a <- 21
+b <- 48
+c <- rworkshoppackage::multiply(a,b)
+print(c)
 ```
 
 ## Example

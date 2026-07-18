@@ -14,8 +14,33 @@ meetup.
 
 You can install the development version of rworkshoppackage like so:
 
+## ⬇️ Installing `rworkshoppackage`
+
+Install the `pak` package. Y You can install the development version of
+`rworkshoppackage` from [GitHub](https://github.com/) with
+
 ``` r
-# FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
+# install.packages("pak")  
+pak::pak("jyoti-bhogal/rworkshoppackage-public")  
+#> 
+#> → Package library at '/private/var/folders/7k/kpyh33yd4mlbp_p2j8m4810m0000gn/T/RtmpltBpp1/temp_libpath62c72658eb4'.
+#> → Will update 1 package.
+#> → The package (0 B) is cached.
+#> + rworkshoppackage 0.1.0 → 0.1.0 👷🏻‍♂️🔧 (GitHub: 8c7d89f)
+#> ℹ No downloads are needed, 1 pkg is cached
+#> ✔ Installed rworkshoppackage 0.1.0 (github::jyoti-bhogal/rworkshoppackage-public@8c7d89f) (26ms)
+#> ✔ 1 pkg: upd 1 [3.3s]
+```
+
+## Usage
+
+Multiply 21 by 48
+
+``` r
+a <- 21
+b <- 48
+c <- rworkshoppackage::multiply(a,b)
+print(c)
 ```
 
 ## Example
